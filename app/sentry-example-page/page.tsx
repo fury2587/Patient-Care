@@ -1,7 +1,8 @@
 "use client";
 
-import Head from "next/head";
-import * as Sentry from "@sentry/nextjs";
+import '@sentry/nextjs';
+import Head from 'next/head';
+
 
 export default function Page() {
   return (
