@@ -4,7 +4,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors:true,
   },
-  eslinit:{ignoreDuringBuilds:true,}
+  // eslinit:{ignoreDuringBuilds:true,}
 };
 
 export default withSentryConfig(withSentryConfig(nextConfig, {
